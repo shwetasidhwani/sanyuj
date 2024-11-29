@@ -1,0 +1,83 @@
+.outer-container {
+  padding: 20px 40px;
+  font-family: "Roboto", sans-serif;
+  min-height: 60vh; /* Ensures full height for proper centering */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9; /* Light background for contrast */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.email,
+.username,
+.r-pwd,
+.pwd {
+  border: 2px solid #ccc; /* Softer border */
+  border-radius: 8px; /* Rounded edges for modern design */
+  padding: 10px 15px; /* Comfortable padding inside input fields */
+  font-size: 16px; /* Standard font size */
+  width: 100%; /* Full width for responsiveness */
+  max-width: 400px; /* Limits width for large screens */
+  margin-bottom: 15px; /* Adds space between input fields */
+  transition: border-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.username:focus,
+.pwd:focus {
+  border-color: #000; /* Highlight on focus */
+  outline: none; /* Removes default outline */
+}
+
+.login-text span {
+  margin-bottom: 20px; /* Adjusted for better spacing */
+  font-size: 36px; /* Slightly smaller for better balance */
+  font-weight: 700;
+  color: #333; /* Neutral text color */
+  text-align: center; /* Centers text */
+}
+
+.outer-container img {
+  height: 70px;
+  margin-bottom: 30px; /* Reduced margin for compactness */
+  border-radius: 8px; /* Optional: Adds rounded corners to the image */
+  object-fit: contain; /* Ensures the image fits well */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Aligns content vertically */
+  align-items: center; /* Aligns content horizontally */
+}
+
+.signup-btn,
+.submit-btn {
+  background-color: #000; /* Primary color */
+  color: #fff; /* White text for contrast */
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px; /* Comfortable button size */
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 0; /* Adds space between the buttons */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+  width: 200px; /* Ensures consistent button width */
+  text-align: center; /* Ensures text is centered */
+}
+
+.signup-btn:hover,
+.submit-btn:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: scale(1.05); /* Subtle zoom effect */
+}
+
+.signup-btn:active,
+.submit-btn:active {
+  transform: scale(1); /* Removes zoom effect on click */
+}
+
+input{
+  margin-top: 10px;
+}

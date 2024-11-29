@@ -1,0 +1,97 @@
+.dashboard-container {
+  max-width: 800px;
+  padding: 20px;
+  margin: 50px auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.profile-section {
+  display: flex;
+  flex-direction: column; /* Stack profile image and info vertically */
+  align-items: center; /* Center profile image */
+  justify-content: center;
+  /* margin-bottom: 20px; */
+}
+
+.profile-image {
+  width: 150px; /* Adjust the width */
+  height: 150px; /* Adjust the height */
+  border-radius: 50%; /* Circular profile image */
+  object-fit: cover; /* Ensures the image fits within the circle */
+  /* margin-bottom:100px;  */
+  border: 3px dashed #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.profile-info {
+  text-align: center; /* Center the text */
+}
+
+.profile-info h2, .profile-info h3 {
+  margin: 5px 0; /* Adjust margin between name and role */
+}
+
+.dashboard-form input,
+.dashboard-form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dashboard-form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard-form button:hover {
+  background-color: #0056b3;
+}
+
+.dashboard {
+  text-align: left;
+}
+
+.dashboard-main-profile {
+  margin-bottom: 20px;
+  border: 1.5px solid #bdbcbc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.dashboard-main-profile h2 {
+  margin: 0;
+  font-size: 50px;
+}
+
+.dashboard-bio,
+.dashboard-work-experience {
+  margin-bottom: 20px;
+  border: 1.5px solid #bdbcbc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.dashboard-container button {
+  padding: 10px 15px;
+  background-color: #256bd4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dashboard-container button:hover {
+  background-color: #0056b3;
+}
